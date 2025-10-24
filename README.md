@@ -46,7 +46,7 @@ It combines **Python**, **Excel**, and **Power BI** to deliver a full analytical
 
 ---
 
-## 🖼️ Dashboard Preview Placeholders
+## 🖼️ Dashboard
 
 | Page | Screenshot |
 |------|-------------|
@@ -122,7 +122,7 @@ Participation_to_Employment =
 DIVIDE(AVERAGE('LabourForce'[employment_rate]), AVERAGE('LabourForce'[participation_rate]))
 ```
 
----
+
 ---
 
 **Author:** Lesley Wanjiku Kamamo   

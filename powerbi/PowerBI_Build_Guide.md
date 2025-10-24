@@ -1,6 +1,6 @@
-# Power BI Build Guide (from final_labour_force.csv)
+# Power BI Build (from final_labour_force.csv)
 
-## Fields detected
+## Fields on the csv files
 - Year: `year`
 - Geography: `geo`
 - Sex: `gender`
@@ -24,8 +24,7 @@
 6. Slicers: `year`, `geo`, `gender`, `age_group`.
 7. Optional: Add Date table for YoY (see DAX file).
 
-## 10 Insights
-## 🖼️ Dashboard Preview Placeholders
+## 🖼️ Insights
 
 | Page | Screenshot |
 |------|-------------|
@@ -35,8 +34,7 @@
 | **ParticipationRate_and_EmploymentRate_By_Education** | ![Participation Placeholder](./images/Participation_Employment_rateBy_Education.png) |
 
 
-### Stakeholder Insights (Top 10)
-
+### Stakeholder Insights
 1. Latest year (2024) averages — Employment: 60.4%, Unemployment: 7.3%, Participation: 64.6%.
 2. Employment rate changed by +2.8 pts from 2020 to 2024 (avg 57.6% → 60.4%).
 3. In 2024, Postgraduate has the highest employment rate at 74.2%.
