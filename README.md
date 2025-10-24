@@ -46,6 +46,39 @@ It combines **Python**, **Excel**, and **Power BI** to deliver a full analytical
 
 ---
 
+## 🖼️ Dashboard Preview Placeholders
+
+| Page | Screenshot |
+|------|-------------|
+| **Insight Overview** | ![Correlation Overview Placeholder](./images/correlation_education_employment_over_time.png) |
+| **Provice Comparison** | ![Province Placeholder](./images/labour_force_rates_by_geo.png) |
+| **Trends** | ![Trends Placeholder](./images/education_trends_over_time.png) |
+| **Gender Comparison** | ![Gender Placeholder](./images/labour_force_rates_by_gender.png) |
+---
+
+## 🧩 Project Structure
+```
+Employment_Education_Analysis/
+├── data/
+│   ├── powerbi_employment_education_sample.csv
+│   ├── cleaned_employment_education.csv
+│   └── Employment_Education_Project.xlsx
+├── notebooks/
+│   └── employment_education_analysis.ipynb
+├── powerbi/
+│   ├── Employment_Education_Dashboard.pbix 
+│   ├── POWERBI_README.md
+│   └── images/ (dashboard screenshots)
+└── README.md
+```
+---
+
+## 🧠 Next Steps
+- Extend to **gender and age-based breakdowns** using additional StatCan tables.  
+- Use **ARIMA / Prophet models** for forecasting trends.  
+- Deploy dashboard to **Power BI Service** and automate refresh from the WDS API.
+
+
 ## 🧭 Power BI Dashboard Layout
 
 ### 1️⃣ Page 1: *National Overview*
@@ -90,39 +123,6 @@ DIVIDE(AVERAGE('LabourForce'[employment_rate]), AVERAGE('LabourForce'[participat
 ```
 
 ---
-
-## 🖼️ Dashboard Preview Placeholders
-
-| Page | Screenshot |
-|------|-------------|
-| **Insight Overview** | ![Correlation Overview Placeholder](./images/correlation_education_employment_over_time.png) |
-| **Provice Comparison** | ![Province Placeholder](./images/labour_force_rates_by_geo.png) |
-| **Trends and Forecasts** | ![Trends Placeholder](./images/education_trends_over_time.png) |
-| **Gender Comparison** | ![Gender Placeholder](./images/labour_force_rates_by_gender.png) |
----
-
-## 🧩 Project Structure
-```
-Employment_Education_Analysis/
-├── data/
-│   ├── powerbi_employment_education_sample.csv
-│   ├── cleaned_employment_education.csv
-│   └── Employment_Education_Project.xlsx
-├── notebooks/
-│   └── employment_education_analysis.ipynb
-├── powerbi/
-│   ├── Employment_Education_Dashboard.pbix 
-│   ├── POWERBI_README.md
-│   └── images/ (dashboard screenshots)
-└── README.md
-```
----
-
-## 🧠 Next Steps
-- Extend to **gender and age-based breakdowns** using additional StatCan tables.  
-- Use **ARIMA / Prophet models** for forecasting trends.  
-- Deploy dashboard to **Power BI Service** and automate refresh from the WDS API.
-
 ---
 
 **Author:** Lesley Wanjiku Kamamo   
