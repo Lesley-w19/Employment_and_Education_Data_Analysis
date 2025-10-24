@@ -20,7 +20,6 @@ It combines **Python**, **Excel**, and **Power BI** to deliver a full analytical
 | **Python (Pandas, Matplotlib)** | Data cleaning, exploration, and correlation analysis |
 | **Excel** | Data validation and tabular exploration |
 | **Power BI Desktop** | Dashboarding and policy insight visualization |
-| **Statistics Canada WDS API** | Live data retrieval |
 
 ---
 
@@ -97,9 +96,10 @@ DIVIDE(AVERAGE('LabourForce'[employment_rate]), AVERAGE('LabourForce'[participat
 | Page | Screenshot |
 |------|-------------|
 | **National Overview** | ![National Overview Placeholder](images/national_overview.png) |
-| **Provincial Comparison** | ![Provincial Placeholder](images/provincial_comparison.png) |
-| **Trends and Forecasts** | ![Trends Placeholder](images/trends_forecast.png) |
-| **Insights Page** | ![Insights Placeholder](images/insights_page.png) |
+| **Provice Comparison** | ![Province Placeholder](./images/labour_force_rates_by_geo.png) |
+| **Trends and Forecasts** | ![Trends Placeholder](./images/education_trends_over_time.png) |
+| **Gender Comparison** | ![Gender Placeholder](./images/labour_force_rates_by_gender.png) |
+| **Insight** | ![Correlation Placeholder](./images/correlation_education_employment_over_time.png) |
 
 *(Upload your Power BI dashboard screenshots here once created.)*
 
@@ -115,18 +115,11 @@ Employment_Education_Analysis/
 ├── notebooks/
 │   └── employment_education_analysis.ipynb
 ├── powerbi/
-│   ├── Employment_Education_Dashboard.pbix  (to be created in Power BI)
+│   ├── Employment_Education_Dashboard.pbix 
 │   ├── POWERBI_README.md
 │   └── images/ (dashboard screenshots)
 └── README.md
 ```
-
----
-
-## 📈 Insights for Interview
-> “This project demonstrates end-to-end data storytelling — from sourcing and analyzing official Statistics Canada data to delivering business-ready dashboards.  
-The results show that education level is a significant predictor of employment success in Canada, reinforcing the need for targeted upskilling policies.”
-
 ---
 
 ## 🧠 Next Steps
