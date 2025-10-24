@@ -95,14 +95,10 @@ DIVIDE(AVERAGE('LabourForce'[employment_rate]), AVERAGE('LabourForce'[participat
 
 | Page | Screenshot |
 |------|-------------|
-| **National Overview** | ![National Overview Placeholder](images/national_overview.png) |
+| **Insight Overview** | ![Correlation Overview Placeholder](./images/correlation_education_employment_over_time.png) |
 | **Provice Comparison** | ![Province Placeholder](./images/labour_force_rates_by_geo.png) |
 | **Trends and Forecasts** | ![Trends Placeholder](./images/education_trends_over_time.png) |
 | **Gender Comparison** | ![Gender Placeholder](./images/labour_force_rates_by_gender.png) |
-| **Insight** | ![Correlation Placeholder](./images/correlation_education_employment_over_time.png) |
-
-*(Upload your Power BI dashboard screenshots here once created.)*
-
 ---
 
 ## 🧩 Project Structure
